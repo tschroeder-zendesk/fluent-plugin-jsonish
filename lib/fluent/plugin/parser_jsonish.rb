@@ -1,3 +1,5 @@
+require 'fluent/parser'
+
 module Fluent
   class TextParser
     class StdFormatTimeParser < TimeParser
